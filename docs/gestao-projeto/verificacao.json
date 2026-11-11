@@ -16,7 +16,6 @@
   "duplicacoes": 0,
   "secoes_obrigatorias": "Verificadas nas 26 descrições",
   "datas_e_prioridades_nas_descricoes": "Verificadas",
-  "campos_compartilhados": "Priority e datas aguardam resolução de acesso ou substituição autorizada",
   "issues_urls": [
     "https://github.com/PedroGiffoni/SkillBridge-UNIFOR/issues/1",
     "https://github.com/PedroGiffoni/SkillBridge-UNIFOR/issues/2",
@@ -44,5 +43,6 @@
     "https://github.com/PedroGiffoni/SkillBridge-UNIFOR/issues/24",
     "https://github.com/PedroGiffoni/SkillBridge-UNIFOR/issues/25",
     "https://github.com/PedroGiffoni/SkillBridge-UNIFOR/issues/26"
-  ]
+  ],
+  "campos_locais": "Priority, Start date e Target date únicos, locais ao Project nº 2 e preenchidos nas 26 Issues"
 }

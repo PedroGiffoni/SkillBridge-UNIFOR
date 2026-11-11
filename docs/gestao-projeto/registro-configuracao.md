@@ -16,11 +16,11 @@ O destino inicial da missão era `PedroGiffoni/skillbridge`. Durante a execuçã
 - Kanban Geral existente verificado: Board com colunas por Status e sem filtro.
 - Assignees e Effort não preenchidos: equipe e estimativas não confirmadas.
 
-## Impedimento comprovado
+## Restrição inicial e resolução autorizada
 
 Priority, Start date, Target date e Effort são campos derivados de Issues (`isIssueField: true`), com referência subjacente indisponível à autenticação atual. `updateProjectV2Field` recusou alterar Priority; `updateProjectV2ItemFieldValue` recusou datas, exigindo `updateIssueFieldValue`. A consulta dos campos da conta retornou `FORBIDDEN`: a conta autenticada não tem permissão para recuperar essas informações por essa API.
 
-O token já possui escopo `project`; portanto, `gh auth refresh -s project` não resolve o impedimento observado. É necessário acesso aos campos compartilhados de Issues e opções compatíveis para preencher Priority e datas na interface ou por API autorizada. Não foram removidos nem duplicados campos para contornar a restrição. Prioridades e datas planejadas estão registradas integralmente nas 26 descrições e documentos.
+O token já possui escopo `project`; portanto, `gh auth refresh -s project` não resolve o impedimento observado. É necessário acesso aos campos compartilhados de Issues e opções compatíveis para preencher Priority e datas na interface ou por API autorizada. Inicialmente os campos foram preservados. Após inspecionar a interface autenticada no Edge, constatou-se que Priority tinha opções compartilhadas Urgent, High, Medium e Low. O titular autorizou substituir apenas os três vínculos vazios no Project nº 2 por campos locais com os mesmos nomes. Os campos compartilhados da conta não foram alterados. Priority local contém Alta, Média e Baixa; Start date e Target date locais são do tipo Date. Há exatamente um campo de cada nome e os três foram preenchidos nas 26 Issues. Effort permanece compartilhado e sem estimativa, conforme a equipe ainda não confirmada.
 
 ## Documentos
 
@@ -28,4 +28,4 @@ README com ilustração conceitual identificada; backlog, planejamento das sprin
 
 ## Próximos passos
 
-Resolver acesso aos campos Priority e datas, confirmar integrantes e capacidade, selecionar trabalho da Sprint 1 e produzir os entregáveis reais. Registrar início/término reais separadamente das datas planejadas. Validar o MVP com pelo menos 10 usuários e coletar cinco ou mais evidências reais nas atividades apropriadas. Entrega acadêmica prevista no Dream Shape em 27/11/2026.
+Configuração dos campos concluída e auditada. Confirmar integrantes e capacidade, selecionar trabalho da Sprint 1 e produzir os entregáveis reais. Registrar início/término reais separadamente das datas planejadas. Validar o MVP com pelo menos 10 usuários e coletar cinco ou mais evidências reais nas atividades apropriadas. Entrega acadêmica prevista no Dream Shape em 27/11/2026.

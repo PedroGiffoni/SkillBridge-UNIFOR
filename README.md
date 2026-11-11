@@ -96,4 +96,4 @@ docs/
 
 ## Limitações e próximos passos
 
-Somente gerenciamento e documentação foram preparados. Priority e datas do quadro dependem de acesso aos campos compartilhados de Issues; valores planejados constam nas descrições. Não há aplicação, deploy, métricas ou participantes comprovados neste repositório. Confirmar equipe e capacidade, revisar SB-01 a SB-08 e realizar as atividades com evidências reais. Para contribuir, referenciar a Issue correspondente e aplicar os critérios de conclusão. Licença ainda não definida.
+Somente gerenciamento e documentação foram preparados. Priority, Start date e Target date são campos locais do Project nº 2, preenchidos nas 26 Issues; datas representam planejamento. Não há aplicação, deploy, métricas ou participantes comprovados neste repositório. Confirmar equipe e capacidade, revisar SB-01 a SB-08 e realizar as atividades com evidências reais. Para contribuir, referenciar a Issue correspondente e aplicar os critérios de conclusão. Licença ainda não definida.

@@ -33,7 +33,7 @@ Todas as atividades planejadas aguardam execução ou verificação comprovada.
 
 ## Impedimentos
 
-Pendente de relato real da equipe. Campos Priority e datas do Project aguardam acesso aos campos compartilhados de Issues.
+Pendente de relato real da equipe. A restrição inicial dos campos compartilhados foi resolvida com campos locais autorizados no Project nº 2; não é impedimento atual.
 
 ## Decisões
 

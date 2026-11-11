@@ -35,6 +35,6 @@ Planejamento cadastrado em 11/11/2026. As 26 Issues pertencem a PedroGiffoni/Ski
 
 Os identificadores SB-01 a SB-26 são exclusivos deste backlog. Responsáveis e esforço aguardam definição da equipe; não atribuir pessoas por suposição. SQLite somente se necessário ao MVP. A seleção do modelo Gemini gratuito deve ser verificada na conta durante SB-14. Não há aplicação implementada neste repositório.
 
-## Campos com acesso pendente
+## Campos de gestão
 
-Priority, Start date, Target date e Effort são derivados de campos compartilhados de Issues. A API informou falta de permissão para consultar esses campos. Prioridades e datas constam nas descrições; o preenchimento dos campos Priority e datas no Project permanece pendente. Não foram criados campos duplicados.
+Priority, Start date e Target date foram substituídos por campos locais no Project nº 2, com autorização do titular, preservando os campos compartilhados da conta. Há exatamente um campo de cada nome no quadro. Priority contém Alta, Média e Baixa. Prioridades e datas planejadas estão preenchidas nas 26 Issues, além das descrições. Effort permanece sem estimativa e Assignees sem responsáveis confirmados.
